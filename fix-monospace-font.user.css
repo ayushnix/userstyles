@@ -1,0 +1,30 @@
+/* ==UserStyle==
+@name           Fix Monospace Font
+@description    A lot of websites have started breaking font-family in pre and code html tags by assuming that Chromium and its forks are the only web browsers out there.                This CSS file aims to fix this stupidity.
+@namespace      ayushnix
+@author         ayushnix [https://github.com/ayushnix]
+@version        1.0
+@license        Unlicense
+@homepageURL    https://github.com/ayushnix/userstyles
+@updateURL      https://raw.githubusercontent.com/ayushnix/userstyles/master/fix-monospace-font.user.css
+==/UserStyle== */
+
+@-moz-document domain("atlassian.com") {
+    .hljs {
+        font-family: monospace;
+    }
+}
+
+@-moz-document domain("maryrosecook.com"),
+domain("clig.dev"),
+domain("ryanflorence.com"),
+domain("zihao.me"),
+domain("unixsheikh.com"),
+domain("chrisjean.com"),
+domain("draculatheme.com") {
+    pre,
+    code,
+    pre.code {
+        font-family: monospace;
+    }
+}
