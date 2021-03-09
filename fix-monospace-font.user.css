@@ -1,9 +1,9 @@
 /* ==UserStyle==
 @name           Fix Monospace Font
-@description    A lot of websites have started breaking font-family in pre and code html tags by assuming that Chromium and its forks are the only web browsers out there.                This CSS file aims to fix this stupidity.
+@description    This CSS file aims to fix the rampant stupidity of breaking font-family by assuming only Chromium based web browsers exist.
 @namespace      ayushnix
 @author         ayushnix [https://github.com/ayushnix]
-@version        1.0
+@version        1.0.0
 @license        Unlicense
 @homepageURL    https://github.com/ayushnix/userstyles
 @updateURL      https://raw.githubusercontent.com/ayushnix/userstyles/master/fix-monospace-font.user.css
