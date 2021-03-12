@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Fix Sans Serif Font
+@description    This CSS file aims to fix websites that don't know how to use sans-serif fonts.
+@namespace      ayushnix
+@author         ayushnix [https://github.com/ayushnix]
+@version        1.0.0
+@license        Unlicense
+@homepageURL    https://github.com/ayushnix/userstyles
+@updateURL      https://raw.githubusercontent.com/ayushnix/userstyles/master/fix-sans-serif-font.user.css
+==/UserStyle== */
+
+@-moz-document domain("bizfluent.com") {
+    a, li, p {
+        font-weight: normal;
+    }
+}
