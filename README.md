@@ -5,3 +5,4 @@ CSS themes forked from other repos will be given appropriate credit and their
 LICENSE will be preserved.
 
 - [Fix Monospace Font](https://raw.githubusercontent.com/ayushnix/userstyles/master/fix-monospace-font.user.css)
+- [Fix Sans Serif Font](https://raw.githubusercontent.com/ayushnix/userstyles/master/fix-sans-serif-font.user.css)
