@@ -3,7 +3,7 @@
 @description    This CSS file aims to fix the rampant stupidity of breaking font-family by assuming only Chromium based web browsers exist.
 @namespace      ayushnix
 @author         ayushnix [https://github.com/ayushnix]
-@version        1.1.0
+@version        1.2.0
 @license        Unlicense
 @homepageURL    https://github.com/ayushnix/userstyles
 @updateURL      https://raw.githubusercontent.com/ayushnix/userstyles/master/fix-monospace-font.user.css
@@ -34,6 +34,12 @@ domain("draculatheme.com") {
         font-family: monospace;
     }
     p > code {
+        font-family: monospace;
+    }
+}
+
+@-moz-document domain("i3wm.org") {
+    tt {
         font-family: monospace;
     }
 }
