@@ -1,0 +1,55 @@
+/* ==UserStyle==
+@name           OneDark for learnvimscriptthehardway.stevelosh.com
+@description    OneDark colorscheme for the Learn VimScript The Hard Way website by Steve Losh
+@namespace      ayushnix
+@author         ayushnix [https://github.com/ayushnix]
+@version        1.0.0
+@license        Unlicense
+@homepageURL    https://github.com/ayushnix/userstyles
+@updateURL      https://raw.githubusercontent.com/ayushnix/userstyles/master/onedark-learnvimscriptthehardway.user.css
+==/UserStyle== */
+
+@-moz-document domain("learnvimscriptthehardway.stevelosh.com") {
+  :root {
+    --bg-master: #282c34;
+    --fg-master: #abb2bf;
+    --fg-link: #828997;
+    --fg-link-hover: #61afef;
+    --bg-code: #3e4451;
+  }
+
+  body {
+    background-color: var(--bg-master);
+    color: var(--fg-master);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a {
+    color: var(--fg-link);
+  }
+
+  html pre,
+  body pre,
+  html code,
+  body code {
+    background-color: var(--bg-code);
+    color: var(--fg-master);
+  }
+  a:hover,
+  a:focus {
+    color: var(--fg-link-hover);
+  }
+  strong {
+    color: var(--fg-master);
+  }
+}
