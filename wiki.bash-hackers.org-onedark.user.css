@@ -1,0 +1,73 @@
+/* ==UserStyle==
+@name           Bash Hackers Wiki — One Dark
+@description    OneDark colorscheme for the Bash Hackers Wiki at wiki.bash-hackers.org
+@namespace      ayushnix
+@author         ayushnix [https://github.com/ayushnix]
+@version        1.0.0
+@license        Unlicense
+@homepageURL    https://github.com/ayushnix/userstyles
+@updateURL      https://raw.githubusercontent.com/ayushnix/userstyles/master/wiki.bash-hackers.org-onedark.user.css
+==/UserStyle== */
+
+@-moz-document domain("wiki.bash-hackers.org") {
+  :root {
+    --bg-master: #282c34;
+    --fg-master: #abb2bf;
+
+    --bg-code: #3e4451;
+    --fg-code: #dde0e5;
+
+    --fg-link: #61afef;
+    --fg-hover: #98c379;
+    --fg-broken-link: #e06c75;
+
+    --bg-background: #202329;
+    --bg-alternate: #5c6370;
+    --bg-code-alt: #4b5263;
+  }
+
+  body {
+    color: var(--fg-master);
+  }
+
+  body.default.dw-page-on-panel,
+  body.optional.dw-page-on-panel,
+  .navbar-default {
+    background-color: var(--bg-background);
+  }
+
+  .panel,
+  .panel-default > .panel-heading {
+    background-color: var(--bg-master);
+    color: var(--fg-master);
+  }
+
+  pre,
+  .table-striped > tbody > tr:nth-of-type(2n + 1) {
+    background-color: var(--bg-code);
+    color: var(--fg-code);
+  }
+
+  code {
+    background-color: var(--bg-code-alt);
+    color: var(--fg-code);
+  }
+
+  .table-striped > tbody > tr:nth-of-type(2n) {
+    background-color: var(--bg-alternate);
+    color: var(--fg-code);
+  }
+
+  a {
+    color: var(--fg-link);
+  }
+
+  a:focus,
+  a:hover {
+    color: var(--fg-hover);
+  }
+
+  .dokuwiki article .wikilink2 {
+    color: var(--fg-broken-link);
+  }
+}
