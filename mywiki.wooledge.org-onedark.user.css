@@ -1,0 +1,48 @@
+/* ==UserStyle==
+@name           OneDark for mywiki.wooledge.org
+@description    OneDark colorscheme for the Bash Wiki mywiki.wooledge.org
+@namespace      ayushnix
+@author         ayushnix [https://github.com/ayushnix]
+@version        1.0.0
+@license        Unlicense
+@homepageURL    https://github.com/ayushnix/userstyles
+@updateURL      https://raw.githubusercontent.com/ayushnix/userstyles/master/mywiki.wooledge.org-onedark.user.css
+==/UserStyle== */
+
+@-moz-document domain("mywiki.wooledge.org") {
+  :root {
+    --bg-master: #282c34;
+    --fg-master: #abb2bf;
+
+    --bg-code: #3e4451;
+    --fg-code: #dde0e5;
+
+    --fg-link: #61afef;
+    --fg-hover: #98c379;
+  }
+
+  html {
+    color: var(--fg-master);
+  }
+
+  #header,
+  .editbar,
+  pre,
+  .backtick,
+  div.table-of-contents {
+    background-color: var(--bg-code);
+    color: var(--fg-code);
+  }
+
+  #page {
+    background-color: var(--bg-master);
+  }
+
+  a:link {
+    color: var(--fg-link);
+  }
+
+  a:link:hover {
+    color: var(--fg-hover);
+  }
+}
