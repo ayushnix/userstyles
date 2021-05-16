@@ -3,7 +3,7 @@
 @description    OneDark colorscheme for the Bash Hackers Wiki at wiki.bash-hackers.org
 @namespace      ayushnix
 @author         ayushnix [https://github.com/ayushnix]
-@version        1.0.0
+@version        1.1.0
 @license        Unlicense
 @homepageURL    https://github.com/ayushnix/userstyles
 @updateURL      https://raw.githubusercontent.com/ayushnix/userstyles/master/wiki.bash-hackers.org-onedark.user.css
@@ -43,7 +43,8 @@
   }
 
   pre,
-  .table-striped > tbody > tr:nth-of-type(2n + 1) {
+  .table-striped > tbody > tr:nth-of-type(2n + 1),
+  .dokuwiki .wrap_box {
     background-color: var(--bg-code);
     color: var(--fg-code);
   }
